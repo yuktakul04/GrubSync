@@ -30,7 +30,7 @@ interface PreferencesFormProps {
 
 export const PreferencesForm: React.FC<PreferencesFormProps> = ({ initialValues, onSubmit }) => {
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "AIzaSyCE0czdshmR143Givplngsl-DROHywnP7s", // Replace or inject securely
+    googleMapsApiKey: "--", // Replace or inject securely
     libraries: ["places"]
   });
   
